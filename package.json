@@ -1,0 +1,56 @@
+{
+  "name": "htmlcoin-lib",
+  "version": "1.0.1",
+  "description": "A pure and powerful JavaScript HTMLCOIN library.",
+  "author": "HTMLCOIN <support@htmlcoin.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "contributors": [],
+  "keywords": [
+    "htmlcoin",
+    "qtum",
+    "bitcoin",
+    "transaction",
+    "address",
+    "p2p",
+    "ecies",
+    "cryptocurrency",
+    "blockchain",
+    "payment",
+    "bip21",
+    "bip32",
+    "bip37",
+    "bip69",
+    "bip70",
+    "multisig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bytesalt/htmlcoin-lib.git"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "dependencies": {
+    "bech32": "^2.0.0",
+    "bn.js": "^5.2.0",
+    "bs58": "^4.0.1",
+    "buffer-compare": "^1.1.1",
+    "elliptic": "^6.5.4",
+    "inherits": "^2.0.4",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "bitcore-build": "^8.25.7",
+    "brfs": "^2.0.2",
+    "chai": "^4.3.4",
+    "gulp": "^4.0.2",
+    "sinon": "^10.0.0"
+  },
+  "license": "MIT"
+}
